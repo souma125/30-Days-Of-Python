@@ -167,3 +167,48 @@ else:
 # ========================
 # Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
 # ========================
+if 7 // 3 == int(7 / 3):
+    print(True)
+else:
+    print(False)
+
+# ========================
+# Check if type of '10' is equal to type of 10
+# ========================
+
+if '10' == 10:
+   print(True)
+else:
+   print(False)
+
+# ========================
+# Check if int('9.8') is equal to 10
+# ========================
+
+if int('9.8') == 10:
+   print(True)
+else:
+   print(False)
+
+# ========================
+# Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+# ========================
+
+hours = int(input('Enter the hours: '))
+rate = int(input('Enter the hours rate: '))
+pay = hours * rate
+print(pay)
+
+# ========================
+# Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+# ========================
+
+# Get the number of years from the user.
+years = int(input("Enter the number of years: "))
+
+# Calculate the number of seconds a person can live.
+seconds = years * 365 * 24 * 60 * 60
+
+# Print the number of seconds.
+print("A person can live", seconds, "seconds.")
+
